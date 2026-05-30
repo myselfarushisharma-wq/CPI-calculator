@@ -10,11 +10,11 @@ weighted_sum = 0
 # Repeat once for each semester
 for i in range(n):
 
-    # Ask for SPI and credits of the semester
+Ask for SPI and credits of the semester
     spi = float(input(f"Enter SPI of Semester {i+1}: "))
     credits = float(input(f"Enter Credits of Semester {i+1}: "))
 
-    # Update totals
+Update totals
     total_credits = total_credits + credits
     weighted_sum = weighted_sum + (spi * credits)
 
